@@ -23,8 +23,8 @@ h1 {
 
 .sketch {
   display: inline-grid;
-  grid-template-columns: repeat(16, 2fr);
-  grid-template-rows: repeat(16, 2fr);
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
   border: 5px solid black;
   height: 960px;
   width: 960px;
