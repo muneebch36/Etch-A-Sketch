@@ -7,16 +7,18 @@
   font-family: sans-serif, Geneva, Tahoma;
 }
 
-.content {
+body {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
   gap: 8px;
 }
 
-.middle {
+.buttons {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 h1 {
@@ -25,11 +27,6 @@ h1 {
 
 .square {
   background-color: #333333;
-}
-
-.color {
-  --color-l: 50%;
-  --color-blue: hsl(238, 100%, var(--color-l));
 }
 
 .sketch {
